@@ -1,0 +1,79 @@
+.head{
+    height:50px;
+    background-color: black;
+}
+.head1{
+    color: white;
+    float: left;
+    margin-top: 10px;
+    margin-left: 110px;
+    font-family: Candara;
+    font-size: 20px;
+}
+.head2{
+    color:white;
+    float: right;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-right: 110px;
+    font-family: Candara;
+    font-size: 20px;
+}
+
+.head3{
+    color: white;
+    float: right;
+    margin-top: 10px;
+    font-family: Candara;
+    font-size: 20px;
+}
+.navbar{
+    height: 100px;
+}
+.navbar-header{
+    margin-top: 20px;
+}
+.navbar-nav{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.navbar-brand{
+    font-family: "Century Gothic";
+    font-size: 30px;
+}
+.flower{
+    height:250px;
+    background-color: white;
+    background-image: url("floral.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media ( min-width: 768px ) {
+    .grid-divider {
+        position: relative;
+        padding: 0;
+    }
+    .grid-divider>[class*='col-'] {
+        position: static;
+    }
+    .grid-divider>[class*='col-']:nth-child(n+2):before {
+        content: "";
+        border-left: 1px solid #DDD;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .col-padding {
+        padding: 0 15px;
+    }
+}
+.button{
+    width: 300px;
+    background-color: black;
+    color: white;
+    margin-left: 550px;
+}
+.copyrights{
+    background-color: #3c3c3c;
+    color: white;
+}

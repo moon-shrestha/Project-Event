@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TheEvents</title>
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap.min.js" type="text/css">
+    <link rel="stylesheet" href="jquery.js" type="text/css">
+    <link rel="stylesheet" href="book.css" type="text/css">
+</head>
+<body>
+<div class="head">
+    <p class="head1"><span class="glyphicon glyphicon-map-marker"></span>Baneshwor, Kathmandu, Nepal</p>
+    <p class="head2"> <span class="glyphicon glyphicon-phone"></span>01-4450325</p>
+    <p class="head3"><span class="glyphicon glyphicon-envelope"></span>thevent@gmail.com</p>
+</div>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <p class="navbar-brand"> The Events</p>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="event.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li class="active"><a href="#">Bookings</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="rose"></div><br><br>
+<div class="col-md-6">
+        <h3 style="color: white; font-family: 'Century Gothic'">Select Your Event</h3>
+
+        <div class="funkyradio">
+            <div class="funkyradio-default">
+                <input type="radio" name="radio" id="radio1" />
+                <label for="radio1" style="font-family: 'Century Gothic';color: white">Birthdays & other events</label>
+            </div>
+            <div class="funkyradio-default">
+                <input type="radio" name="radio" id="radio2" checked/>
+                <label for="radio2" style="font-family: 'Century Gothic';color: white">Wedding ceremonies</label>
+            </div>
+            <div class="funkyradio-default">
+                <input type="radio" name="radio" id="radio3" />
+                <label for="radio3"style="font-family: 'Century Gothic';color: white">Corporate and business parties</label>
+            </div>
+
+        </div>
+</div>
+<div class="col-md-6">
+    <form class="form-horizontal">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend style="color: white; font-family: 'Century Gothic'">BOOK A SERVICE NOW!</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="bookdate" style="font-family: 'Century Gothic';color: white">Date</label>
+                <div class="col-md-8">
+                    <input id="bookdate" name="bookdate" type="text" placeholder="yyyy/mm/dd" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="coname" style="font-family: 'Century Gothic';color: white">COMPANY / CLIENT NAME</label>
+                <div class="col-md-8">
+                    <input id="coname" name="coname" type="text" placeholder="name" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="booktype" style="font-family: 'Century Gothic';color: white">EVENT TYPE / PURPOSE</label>
+                <div class="col-md-8">
+                    <input id="booktype" name="booktype" type="text" placeholder="type" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="bookguests" style="font-family: 'Century Gothic';color: white">NUMBER OF GUESTS</label>
+                <div class="col-md-8">
+                    <input id="bookguests" name="bookguests" type="text" placeholder="guests" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="bookmin" style="font-family: 'Century Gothic';color: white">AGREED MINIMUM SPEND*</label>
+                <div class="col-md-8">
+                    <input id="bookmin" name="bookmin" type="text" placeholder="$" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="bookstart" style="font-family: 'Century Gothic';color: white">START TIME</label>
+                <div class="col-md-8">
+                    <input id="bookstart" name="bookstart" required="Please fill here" type="text" placeholder="time" class="form-control input-md">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="bookfin" style="font-family: 'Century Gothic';color: white">FINISH TIME</label>
+                <div class="col-md-8">
+                    <input id="bookfin" name="bookfin" type="text" placeholder="finish" class="form-control input-md" required="true">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="bookname" style="font-family: 'Century Gothic';color: white">NAME</label>
+                <div class="col-md-8">
+                    <input id="bookname" name="bookname" type="text" placeholder="name" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="bookmobile" style="font-family: 'Century Gothic';color: white">MOBILE</label>
+                <div class="col-md-8">
+                    <input id="bookmobile" name="bookmobile" type="text" placeholder="mobile" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="booktel" style="font-family: 'Century Gothic';color: white">TELEPHONE</label>
+                <div class="col-md-8">
+                    <input id="booktel" name="booktel" type="text" required placeholder="telephone" class="form-control input-md">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="bookeml" style="font-family: 'Century Gothic';color: white">EMAIL</label>
+                <div class="col-md-8">
+                    <input id="bookeml" name="bookeml" type="text" required placeholder="email" class="form-control input-md">
+
+                </div>
+            </div>
+            <div class="button">
+                <a href="congo.html" class="btn btn-block btn-default"><b>BOOK SERVICE</b></a>
+            </div>
+        </fieldset>
+    </form>
+    <div class="text-center">
+        <p  style="font-family: 'Century Gothic';color: white;">*The minimum spend covers food and beverage
+            charges, all other agreed costs incurred (such as
+            extra security, DJ and AV hire etc) are additional
+            and to be paid by the client.</p>
+    </div>
+</div>
+<footer class="container-fluid text-center bg-lightgray">
+
+    <div class="copyrights" style="margin-top:25px;">
+        <p>The Events © 2017, All Rights Reserved
+            <br>
+            <span>Web Design By: Moon Shrestha</span></p>
+    </div>
+</footer>
+
+</body>
+</html>

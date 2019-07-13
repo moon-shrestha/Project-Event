@@ -1,0 +1,35 @@
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head{
+    height:50px;
+    background-color: black;
+}
+.head1{
+    color: white;
+    float: left;
+    margin-top: 10px;
+    margin-left: 110px;
+    font-family: Candara;
+    font-size: 20px;
+}
+.head2{
+    color:white;
+    float: right;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-right: 110px;
+    font-family: Candara;
+    font-size: 20px;
+}
+
+.head3 {
+    color: white;
+    float: right;
+    margin-top: 10px;
+    font-family: Candara;
+    font-size: 20px;
+}

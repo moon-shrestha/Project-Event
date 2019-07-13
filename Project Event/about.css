@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+.head{
+    height:50px;
+    background-color: black;
+}
+.head1{
+    color: white;
+    float: left;
+    margin-top: 10px;
+    margin-left: 110px;
+    font-family: Candara;
+    font-size: 20px;
+}
+.head2{
+    color:white;
+    float: right;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-right: 110px;
+    font-family: Candara;
+    font-size: 20px;
+}
+
+.head3{
+    color: white;
+    float: right;
+    margin-top: 10px;
+    font-family: Candara;
+    font-size: 20px;
+}
+.navbar{
+    height: 100px;
+}
+.navbar-header{
+    margin-top: 20px;
+}
+.navbar-nav{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.navbar-brand{
+    font-family: "Century Gothic";
+    font-size: 30px;
+}
+.pattern{
+    height: 250px;
+    background-image: url("pattern.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blogShort{
+    margin-top: 50px;
+}
+.copyrights{
+    background-color: #3c3c3c;
+    color: white;
+}

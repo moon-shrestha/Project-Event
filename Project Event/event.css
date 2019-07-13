@@ -1,0 +1,86 @@
+.head{
+    height:50px;
+    background-color: black;
+}
+.head1{
+    color: white;
+    float: left;
+    margin-top: 10px;
+    margin-left: 110px;
+    font-family: Candara;
+    font-size: 20px;
+}
+.head2{
+    color:white;
+    float: right;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-right: 110px;
+    font-family: Candara;
+    font-size: 20px;
+}
+
+.head3{
+    color: white;
+    float: right;
+    margin-top: 10px;
+    font-family: Candara;
+    font-size: 20px;
+}
+.navbar{
+    height: 100px;
+}
+.navbar-header{
+    margin-top: 20px;
+}
+.navbar-nav{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.navbar-brand{
+    font-family: "Century Gothic";
+    font-size: 30px;
+}
+.plan{
+    height:300px;
+    background-image: url("edited.png");
+    background-size: cover;
+}
+
+.box {
+    background: #fff;
+    transition:all 0.2s ease;
+    border:2px  #dadada;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-clip: padding-box;
+    padding:0 20px 20px 20px;
+    min-height:340px;
+}
+
+.box:hover {
+    border:2px solid #525C7A;
+}
+
+.box span.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box .box-content {
+    padding: 16px;
+    border-radius: 0 0 2px 2px;
+    background-clip: padding-box;
+    box-sizing: border-box;
+}
+.box .box-content p {
+    color:#515c66;
+    text-transform:none;
+}
+.copyrights{
+    background-color: #3c3c3c;
+    color: white;
+}
